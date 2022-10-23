@@ -42,7 +42,7 @@ struct Node *insertBetween(struct Node *head, int data, int index)
     p->next = ptr;
     return head;
 }
-
+//to insert
 struct Node *insertAtend(struct Node *fourth, int data)
 {
     struct Node *ptr;
